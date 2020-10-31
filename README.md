@@ -8,6 +8,14 @@ No javasript, no PHP, only static HTML.
 The generator requires python, though.
 
 
+Overview
+--------
+
+Here's what it looks like in your browser.
+
+![Web browser screenshot](overview.png)
+
+
 How to use
 ----------
 
@@ -19,7 +27,7 @@ When using this tool for the first time, you'll have to:
 Then, whenever you want to change the site's contents:
 
 1. Edit `config.json` to meet your needs
-2. Place your icons (svg, png, ...) in icons/
+2. Place your icons (svg, png, ...) in `icons/`
 3. run `python3 generator.py` (or `./generator.py` directly on linux)
 
 
