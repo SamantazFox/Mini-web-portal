@@ -13,7 +13,7 @@ def genHeader(title):
 		'<html>\n'
 		'\t<head>\n'
 		'\t\t<title>{0}</title>\n'
-		'\t\t<link rel="stylesheet" type="text/css" href="/static/css/normalize_v8.0.1.css">\n'
+		'\t\t<link rel="stylesheet" type="text/css" href="/static/css/normalize.css">\n'
 		'\t\t<link rel="stylesheet" type="text/css" href="/static/css/style.css">\n'
 		'\t</head>\n'
 		.format(title)
@@ -126,7 +126,7 @@ os.mkdir('_build/static/css')
 
 # Copy CSS stylesheets
 shutil.copy('style.css', '_build/static/css')
-shutil.copy('normalize_v8.0.1.css', '_build/static/css')
+shutil.copy('normalize.css', '_build/static/css')
 
 # Copy icons directory
 shutil.copytree('icons', '_build/static/img/')
