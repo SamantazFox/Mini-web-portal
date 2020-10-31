@@ -1,4 +1,4 @@
-# Ignore user config and icons
+# Ignore user config
 config.json
 
 # Ignore user icons, but allow 'no-image.png'
@@ -7,3 +7,6 @@ icons/*
 
 # Ignore normalize.css
 normalize.css
+
+# Ignore output (build) directory
+_build/
