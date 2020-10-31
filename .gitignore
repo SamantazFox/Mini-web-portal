@@ -1,0 +1,9 @@
+# Ignore user config and icons
+config.json
+
+# Ignore user icons, but allow 'no-image.png'
+icons/*
+!icons/no-image.png
+
+# Ignore normalize.css
+normalize.css
