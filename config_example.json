@@ -1,0 +1,37 @@
+{
+	"Title": "My links portal",
+	"Banner": "Welcome to my links portal!",
+	"Categories":
+	[
+		{
+			"Name": "My first category",
+			"Content":
+			[
+				{
+					"Name": "Item 1",
+					"Comment": "This will show up as a tooltop!",
+					"Url": "http://example.com",
+					"Image": "file1.png"
+				},
+				{
+					"Name": "Item 2",
+					"Comment": "Some descritption ...",
+					"Url": "https://example.com",
+					"Image": "file2.svg"
+				}
+			]
+		},
+		{
+			"Name": "My second category",
+			"Content":
+			[
+				{
+					"Name": "Item 3",
+					"Comment": "This will show up as a tooltop!",
+					"Url": "127.0.0.1",
+					"Image": "file1.png"
+				}
+			]
+		}
+	]
+}
